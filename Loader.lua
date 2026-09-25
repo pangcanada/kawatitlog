@@ -4,7 +4,7 @@
 -- ✅ VIPTP ជំនួស EggCheckPremium
 -- ==================================================
 
-local BASE_URL = "https://raw.githubusercontent.com/nekol-ann/steala/ola/"
+local BASE_URL = "https://raw.githubusercontent.com/pangcanada/kawatitlog/main/"
 
 _G.YOKUDO_EnablePrint = false
 
