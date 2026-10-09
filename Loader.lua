@@ -15,7 +15,7 @@ print = function(...)
     end
 end
 
-print("🔵 Loading YOKUDO HUB...")
+print("🔵 Loading ola😪...")
 
 -- ==================================================
 -- CACHE SYSTEM
@@ -283,3 +283,6 @@ task.wait(0.3)
 Loading.Destroy()
 print("✅ Loading Screen Closed!")
 print("🚀 YOKUDO HUB | Ready!")
+print("🎯 Speed:", _G.YOKUDO_IsSpeedUnlocked and "✅ UNLOCKED" or "🔒 LOCKED")
+print("🗺️ MapSettings:", _G.YOKUDO_MapSettings and "✅ LOADED" or "❌ NOT LOADED")
+print("🔊 Sound:", _G.YOKUDO_Sound and "✅ LOADED" or "❌ NOT LOADED")
