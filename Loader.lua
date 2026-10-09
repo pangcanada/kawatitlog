@@ -250,20 +250,29 @@ loadstring(GetScript("Tabs/HopServer.lua"))()
 Loading.Update(90)
 loadstring(GetScript("Tabs/Setting.lua"))()
 
+Loading.Update(95)
+loadstring(GetScript("Tabs/CollectEggNew.lua"))()
+
+-- ==================================================
+-- ✅ LOAD MAP SETTINGS TAB
+-- ==================================================
+Loading.Update(96)
+loadstring(GetScript("Tabs/MapSettings.lua"))()
+
 -- ==================================================
 -- SELECT DEFAULT TAB
 -- ==================================================
-Loading.Update(92)
+Loading.Update(97)
 if _G.YOKUDO_TabsManager then
     _G.YOKUDO_TabsManager:SelectTabByName("Info")
 end
 
-Loading.Update(95)
+Loading.Update(98)
 
 -- ==================================================
 -- LOAD ANTI CHEAT
 -- ==================================================
-Loading.Update(98)
+Loading.Update(99)
 loadstring(GetScript("Features/BypassAntiCheat.lua"))()
 
 -- ==================================================
