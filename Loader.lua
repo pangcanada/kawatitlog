@@ -215,6 +215,9 @@ loadstring(GetScript("Features/ManagerDrone.lua"))()
 Loading.Update(57)
 loadstring(GetScript("Features/ManualFastClick.lua"))()
 
+Loading.Update(58)
+loadstring(GetScript("Features/DropEgg.lua"))()
+
 -- ✅ FarmingManager (ប្រើ VIPTP + EggCheck Logic ខាងក្នុង)
 Loading.Update(59)
 loadstring(GetScript("Features/FarmingManager.lua"))()
